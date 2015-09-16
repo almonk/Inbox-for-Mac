@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AED412BF-A74D-4C69-8EBB-747F187A49F4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Inbox for Mac</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C094795CC3531D29D7A2A8916814F085D9823269</key>
+		<string>https://github.com/almonk/Inbox-for-Mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Inbox for Mac.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C094795CC3531D29D7A2A8916814F085D9823269</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/almonk/Inbox-for-Mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C094795CC3531D29D7A2A8916814F085D9823269</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C094795CC3531D29D7A2A8916814F085D9823269</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Inbox%20for%20Mac</string>
+		</dict>
+	</array>
+</dict>
+</plist>

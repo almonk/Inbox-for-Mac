@@ -19,6 +19,7 @@
 		9F836A5E1BA9CB2D00DE4D39 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 9F836A581BA9CB2D00DE4D39 /* Extensions */; };
 		9F836A5F1BA9CB2D00DE4D39 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836A5A1BA9CB2D00DE4D39 /* INAppStoreWindow.m */; };
 		9F836A601BA9CB2D00DE4D39 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836A5D1BA9CB2D00DE4D39 /* INWindowButton.m */; };
+		9FA5291C1BAA1EFE003BB8CF /* appicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9FA5291B1BAA1EFE003BB8CF /* appicon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9F836A5B1BA9CB2D00DE4D39 /* INAppStoreWindowCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindowCompatibility.h; sourceTree = "<group>"; };
 		9F836A5C1BA9CB2D00DE4D39 /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INWindowButton.h; sourceTree = "<group>"; };
 		9F836A5D1BA9CB2D00DE4D39 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INWindowButton.m; sourceTree = "<group>"; };
+		9FA5291B1BAA1EFE003BB8CF /* appicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appicon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		9F836A2C1BA9C09B00DE4D39 /* Inbox for Mac */ = {
 			isa = PBXGroup;
 			children = (
+				9FA5291B1BAA1EFE003BB8CF /* appicon.icns */,
 				9F836A2F1BA9C09B00DE4D39 /* AppDelegate.h */,
 				9F836A301BA9C09B00DE4D39 /* AppDelegate.m */,
 				9F836A341BA9C09C00DE4D39 /* ViewController.h */,
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F836A5E1BA9CB2D00DE4D39 /* Extensions in Resources */,
+				9FA5291C1BAA1EFE003BB8CF /* appicon.icns in Resources */,
 				9F836A381BA9C09C00DE4D39 /* Images.xcassets in Resources */,
 				9F836A3B1BA9C09C00DE4D39 /* Main.storyboard in Resources */,
 			);
@@ -441,6 +445,7 @@
 				9F836A4C1BA9C09C00DE4D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F836A4D1BA9C09C00DE4D39 /* Build configuration list for PBXNativeTarget "Inbox for MacTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +454,7 @@
 				9F836A4F1BA9C09C00DE4D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
