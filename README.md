@@ -1,5 +1,5 @@
 # Inbox-for-Mac
-A handsomely simple OSX app wrapper around Google Inbox
+A handsomely simple OSX app wrapper around Google Inbox. Use Inbox as if it were a native OSX app.
 
 #### Features
 * Cleanly supports multiple accounts
