@@ -13,6 +13,12 @@
 		9F836A381BA9C09C00DE4D39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F836A371BA9C09C00DE4D39 /* Images.xcassets */; };
 		9F836A3B1BA9C09C00DE4D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F836A391BA9C09C00DE4D39 /* Main.storyboard */; };
 		9F836A471BA9C09C00DE4D39 /* Inbox_for_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836A461BA9C09C00DE4D39 /* Inbox_for_MacTests.m */; };
+		9F836A511BA9C0ED00DE4D39 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F836A501BA9C0ED00DE4D39 /* WebKit.framework */; };
+		9F836A541BA9CA5500DE4D39 /* WAYAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836A531BA9CA5500DE4D39 /* WAYAppStoreWindow.m */; };
+		9F836A571BA9CB1200DE4D39 /* WAYWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836A561BA9CB1200DE4D39 /* WAYWindow.m */; };
+		9F836A5E1BA9CB2D00DE4D39 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 9F836A581BA9CB2D00DE4D39 /* Extensions */; };
+		9F836A5F1BA9CB2D00DE4D39 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836A5A1BA9CB2D00DE4D39 /* INAppStoreWindow.m */; };
+		9F836A601BA9CB2D00DE4D39 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F836A5D1BA9CB2D00DE4D39 /* INWindowButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,17 @@
 		9F836A401BA9C09C00DE4D39 /* Inbox for MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inbox for MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F836A451BA9C09C00DE4D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F836A461BA9C09C00DE4D39 /* Inbox_for_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Inbox_for_MacTests.m; sourceTree = "<group>"; };
+		9F836A501BA9C0ED00DE4D39 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9F836A521BA9CA5500DE4D39 /* WAYAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYAppStoreWindow.h; sourceTree = "<group>"; };
+		9F836A531BA9CA5500DE4D39 /* WAYAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYAppStoreWindow.m; sourceTree = "<group>"; };
+		9F836A551BA9CB1200DE4D39 /* WAYWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYWindow.h; sourceTree = "<group>"; };
+		9F836A561BA9CB1200DE4D39 /* WAYWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYWindow.m; sourceTree = "<group>"; };
+		9F836A581BA9CB2D00DE4D39 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
+		9F836A591BA9CB2D00DE4D39 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
+		9F836A5A1BA9CB2D00DE4D39 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
+		9F836A5B1BA9CB2D00DE4D39 /* INAppStoreWindowCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindowCompatibility.h; sourceTree = "<group>"; };
+		9F836A5C1BA9CB2D00DE4D39 /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INWindowButton.h; sourceTree = "<group>"; };
+		9F836A5D1BA9CB2D00DE4D39 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INWindowButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F836A511BA9C0ED00DE4D39 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +79,7 @@
 		9F836A211BA9C09B00DE4D39 = {
 			isa = PBXGroup;
 			children = (
+				9F836A501BA9C0ED00DE4D39 /* WebKit.framework */,
 				9F836A2C1BA9C09B00DE4D39 /* Inbox for Mac */,
 				9F836A431BA9C09C00DE4D39 /* Inbox for MacTests */,
 				9F836A2B1BA9C09B00DE4D39 /* Products */,
@@ -83,6 +102,16 @@
 				9F836A301BA9C09B00DE4D39 /* AppDelegate.m */,
 				9F836A341BA9C09C00DE4D39 /* ViewController.h */,
 				9F836A351BA9C09C00DE4D39 /* ViewController.m */,
+				9F836A521BA9CA5500DE4D39 /* WAYAppStoreWindow.h */,
+				9F836A551BA9CB1200DE4D39 /* WAYWindow.h */,
+				9F836A561BA9CB1200DE4D39 /* WAYWindow.m */,
+				9F836A531BA9CA5500DE4D39 /* WAYAppStoreWindow.m */,
+				9F836A581BA9CB2D00DE4D39 /* Extensions */,
+				9F836A591BA9CB2D00DE4D39 /* INAppStoreWindow.h */,
+				9F836A5A1BA9CB2D00DE4D39 /* INAppStoreWindow.m */,
+				9F836A5B1BA9CB2D00DE4D39 /* INAppStoreWindowCompatibility.h */,
+				9F836A5C1BA9CB2D00DE4D39 /* INWindowButton.h */,
+				9F836A5D1BA9CB2D00DE4D39 /* INWindowButton.m */,
 				9F836A371BA9C09C00DE4D39 /* Images.xcassets */,
 				9F836A391BA9C09C00DE4D39 /* Main.storyboard */,
 				9F836A2D1BA9C09B00DE4D39 /* Supporting Files */,
@@ -196,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F836A5E1BA9CB2D00DE4D39 /* Extensions in Resources */,
 				9F836A381BA9C09C00DE4D39 /* Images.xcassets in Resources */,
 				9F836A3B1BA9C09C00DE4D39 /* Main.storyboard in Resources */,
 			);
@@ -215,9 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F836A5F1BA9CB2D00DE4D39 /* INAppStoreWindow.m in Sources */,
 				9F836A361BA9C09C00DE4D39 /* ViewController.m in Sources */,
+				9F836A541BA9CA5500DE4D39 /* WAYAppStoreWindow.m in Sources */,
+				9F836A601BA9CB2D00DE4D39 /* INWindowButton.m in Sources */,
 				9F836A331BA9C09C00DE4D39 /* main.m in Sources */,
 				9F836A311BA9C09B00DE4D39 /* AppDelegate.m in Sources */,
+				9F836A571BA9CB1200DE4D39 /* WAYWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
